@@ -49,10 +49,15 @@ swap(1000, 2000);
 console.log("---------------Q6---------------");
 var str = function () {
     var a = "JavaScript the most popular language";
-    console.log(a.length);
-    console.log(a.indexOf('S'));
-    console.log(a.indexOf('lang'));
-    console.log(a.charAt(a.length - 1));
-    console.log(a.charAt(a.length - 3));
+    console.log(a);
+    console.log("length of given string is:",a.length);
+    console.log("Index of S :",a.indexOf('S'));
+    console.log("Index of lang :",a.indexOf('lang'));
+    console.log("Character At last in string:",a.charAt(a.length - 1));
+    console.log("Character At last 3 rd :",a.charAt(a.length - 3));
 }
 str();
+
+
+
+
