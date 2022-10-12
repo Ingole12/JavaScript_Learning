@@ -24,7 +24,7 @@ var stringHandsOn=function(){
      console.log(`The Substring from 22 using substring:  ${str.substring(22)}`);
      console.log(`The Substring from 22 using slice:    ${str.slice(22)}`);
      console.log('-------------------9---------------------');
-     console.log(`string end with "up" : ${str.endsWith("up")}`);
+     console.log(`string end with "up" : ${trimResult.endsWith("up")}`);
      console.log('-------------------10---------------------');
      console.log(`string starts with "Hey" : ${trimResult.startsWith("Hey")}`);
 }
