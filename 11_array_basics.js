@@ -7,6 +7,12 @@ console.log(`----------------------------------`);
 
 
 var arrayOfNumber = [1,3,7,8,9,3,7];
+console.log(`--------------Resize array--------------------`);
+arrayOfNumber.length=3;
+
+console.log(arrayOfNumber.length);
+console.log(arrayOfNumber);
+
 console.log(arrayOfNumber);
 arrayOfNumber.push(99);
 arrayOfNumber.push(88);
