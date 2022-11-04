@@ -13,9 +13,13 @@
        window.localStorage.setItem("Rohit","Sangola");
        window.localStorage.setItem("Kashi","Pandharpur");
        window.localStorage.setItem("Emran","Pune");
-       console.log( window.localStorage.getItem("Sachin"));
+       console.log(window.localStorage);
+
+       console.log(`After getItem Sachin:  ${window.localStorage.getItem("Sachin")}`);
+       console.log(`Length :  ${window.localStorage.length}`);
+       console.log("After remove item Kashi");
        window.localStorage.removeItem("Kashi");
-       console.log(window.localStorage.length);
+       console.log(window.localStorage);
     //   window.localStorage.clear();
     </script>
 </body>
